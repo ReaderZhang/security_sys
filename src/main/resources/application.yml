@@ -1,0 +1,18 @@
+server:
+  port: 9048
+spring:
+  profiles:
+    active: dev
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    access-key-id: xxxxxxxxxxxxxxxxxxxxxxx
+    access-key-secret: xxxxxxxxxxxxxx
+    bucket-name: xxxxxxxxxxxxxxxxxxxxxxx
+    domain: https://oss-qqz-security-sys.oss-cn-beijing.aliyuncs.com

@@ -1,0 +1,32 @@
+2021-03-17 20:37:52.515 [main] INFO  com.qqz.security_sys.SecuritySysApplication - Starting SecuritySysApplication using Java 1.8.0_211 on DESKTOP-E2F85L4 with PID 14732 (F:\ideaworkspace\security_sys\target\classes started by qqz in F:\ideaworkspace\security_sys)
+2021-03-17 20:37:52.616 [main] INFO  com.qqz.security_sys.SecuritySysApplication - The following profiles are active: dev
+2021-03-17 20:37:53.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-03-17 20:37:53.778 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-03-17 20:37:53.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2021-03-17 20:37:54.026 [main] INFO  o.s.c.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'MPConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2021-03-17 20:37:55.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9048 (http)
+2021-03-17 20:37:55.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9048"]
+2021-03-17 20:37:55.223 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-03-17 20:37:55.224 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-17 20:37:55.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-03-17 20:37:55.470 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2784 ms
+2021-03-17 20:37:58.275 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-17 20:37:58.412 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-17 20:37:58.804 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9048"]
+2021-03-17 20:37:58.826 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9048 (http) with context path ''
+2021-03-17 20:37:58.827 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-03-17 20:37:58.844 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-03-17 20:37:58.874 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-03-17 20:37:59.036 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: camerasUsingGET_1
+2021-03-17 20:37:59.058 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2021-03-17 20:37:59.068 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: uploadAvatorUsingPOST_1
+2021-03-17 20:37:59.114 [main] INFO  com.qqz.security_sys.SecuritySysApplication - Started SecuritySysApplication in 7.463 seconds (JVM running for 9.002)
+2021-03-17 20:38:21.657 [http-nio-9048-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-17 20:38:21.657 [http-nio-9048-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-03-17 20:38:21.659 [http-nio-9048-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-03-17 20:39:45.635 [http-nio-9048-exec-4] INFO  com.qqz.security_sys.Common.Utils.WebLogAspect - 请求开始..http://localhost:9048/security_sys/tb-homer/login... 请求方式:POST... 请求方的ip：0:0:0:0:0:0:0:1
+2021-03-17 20:39:45.635 [http-nio-9048-exec-4] INFO  com.qqz.security_sys.Common.Utils.WebLogAspect - 请求的参数：[HomberLogin(phone=258456025, password=13417249167)]
+2021-03-17 20:39:45.751 [http-nio-9048-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-03-17 20:39:46.141 [http-nio-9048-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-03-17 20:39:46.228 [http-nio-9048-exec-4] INFO  com.qqz.security_sys.Common.Utils.WebLogAspect - 请求返回值：R(success=false, code=20006, message=客户端出错, data={info=账号或密码错误})
+2021-03-17 20:39:46.229 [http-nio-9048-exec-4] INFO  com.qqz.security_sys.Common.Utils.WebLogAspect - 请求结束..http://localhost:9048/security_sys/tb-homer/login... 请求方式:POST... 请求方的ip：0:0:0:0:0:0:0:1
