@@ -41,8 +41,8 @@ public class SmsController {
     @Autowired
     private TbHomerService homerService;
     public final static String url = "http://apis.haoservice.com/sms/sendv2?";
-    public final static String TPL_ID = "1974";
-    public final static String KEY = "f8637f0b66264b848cbf6adc533e7ad1";
+    public final static String TPL_ID = "xxxxxxxxxxxxx";
+    public final static String KEY = "xxxxxxxxxxxxxxxx";
 
     @ApiOperation ( value = "发送短信")
     @PostMapping("/sendMessage/{phone}")
