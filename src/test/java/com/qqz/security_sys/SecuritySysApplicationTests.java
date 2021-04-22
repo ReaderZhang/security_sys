@@ -62,7 +62,7 @@ class SecuritySysApplicationTests {
     }
     @Test
     void oss() throws FileNotFoundException {
-        OSS ossClient = new OSSClientBuilder ().build ( "https://oss-cn-beijing.aliyuncs.com","LTAI4GJ5JjbF68bv6xz9x7fS","cJQLuAuwWGcS7sZWFmBXj2X8pe5Hr1" );
+        OSS ossClient = new OSSClientBuilder ().build ( "https://oss-cn-beijing.aliyuncs.com","xxxxxxxxxx","xxxxxxxxxxx" );
         File file = new File ( "C:\\Users\\qqz\\Pictures\\ss.jpg" );
         InputStream inputStream = new FileInputStream(file);
         ossClient.putObject ( "oss-qqz-security-sys","test.jpg",inputStream);
