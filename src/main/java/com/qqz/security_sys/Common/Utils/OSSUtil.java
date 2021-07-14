@@ -11,11 +11,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class OSSUtil {
-    public final static String endpoint = "https://oss-cn-beijing.aliyuncs.com";
+    public final static String endpoint = "xxxx";
     public final static String accesskey = "xxxxxxxxxxxxxxx";
     public final static String secret = "xxxxxxxxxxxxxxxxxxxxxxx";
-    public final static String bucketname = "oss-qqz-security-sys";
-    public final static String domain = "https://oss-qqz-security-sys.oss-cn-beijing.aliyuncs.com/";
+    public final static String bucketname = "xxxx";
+    public final static String domain = "xxxx";
     public final static SimpleDateFormat sdf = new SimpleDateFormat ("yyyyMMddhhmmss");
     public static OSS getOssClient(){
         return new OSSClientBuilder ().build ( endpoint,accesskey,secret );
